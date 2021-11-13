@@ -74,6 +74,11 @@ public class SliderAdapterExample extends SliderViewAdapter<SliderAdapterExample
         });
     }
 
+    @Override
+    public int getCount() {
+        return mSliderItems.size();
+    }
+
 
     class SliderAdapterVH extends SliderViewAdapter.ViewHolder {
 
