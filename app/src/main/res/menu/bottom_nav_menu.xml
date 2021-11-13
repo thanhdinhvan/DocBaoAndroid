@@ -15,9 +15,16 @@
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/title_notifications" />
+
+    <item
+        android:id="@+id/navigation_tusach"
+        android:icon="@drawable/icon_mxh"
+        android:title="Tủ sách" />
+
     <item
         android:id="@+id/navigation_mangxahoi"
         android:icon="@drawable/icon_mxh"
         android:title="Mang Xa Hội" />
+
 
 </menu>
