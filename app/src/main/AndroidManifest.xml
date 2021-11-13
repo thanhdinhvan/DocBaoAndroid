@@ -9,12 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DocBaoApp">
-        <activity android:name=".view.ui.TrungTamNhiemVuScreen"></activity>
+        <activity android:name=".view.ui.NewsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GetStart"></activity>
+        <activity android:name=".view.ui.TrungTamNhiemVuScreen">
+
+        </activity>
         <activity
             android:name=".view.BottomMenu"
             android:label="@string/title_activity_bottom_menu" />
         <activity android:name=".ImageSiderLayoutItem" />
-        <activity android:name=".GetStart" />
     </application>
 
 </manifest>

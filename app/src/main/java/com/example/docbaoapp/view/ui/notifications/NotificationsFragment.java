@@ -12,8 +12,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.docbaoapp.view.R;
-import com.example.docbaoapp.view.databinding.FragmentNotificationsBinding;
+import com.example.docbaoapp.databinding.FragmentNotificationsBinding;
+
 
 public class NotificationsFragment extends Fragment {
 
