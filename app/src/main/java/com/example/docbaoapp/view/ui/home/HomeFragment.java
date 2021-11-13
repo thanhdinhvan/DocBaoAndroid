@@ -15,6 +15,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.docbaoapp.R;
 import com.example.docbaoapp.databinding.FragmentHomeBinding;
+import com.example.docbaoapp.databinding.FragmentNotificationsBinding;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,11 +35,13 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        View root = binding.getRoot();
         bookLikes = new ArrayList<>();
         bookLikes = new ArrayList<>();
         lv_SachMoi = view.findViewById(R.id.lv_SachMoi);
         lv_SachCoYeuThich = view.findViewById(R.id.lv_cothebanthich);
-        View root = binding.getRoot();
+        //View root = binding.getRoot();
 
         return root;
     }
