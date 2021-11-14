@@ -254,6 +254,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7" >
+
+
+    </ListView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_no_data"
+        app:layout_constraintBottom_toBottomOf="@+id/lv_news_book"
+        app:layout_constraintEnd_toEndOf="@+id/lv_news_book"
+        app:layout_constraintStart_toStartOf="@+id/lv_news_book"
+        app:layout_constraintTop_toTopOf="@+id/lv_news_book" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
