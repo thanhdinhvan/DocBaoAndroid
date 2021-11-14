@@ -11,13 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            >
+            android:layout_height="match_parent">
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <LinearLayout
                     android:id="@+id/linearLayout5"
                     android:layout_width="match_parent"
@@ -107,9 +109,9 @@ tiểu thuyết, sách tâm linh, tâm lý…"
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout11"
                     android:layout_width="0dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="14dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
@@ -118,7 +120,7 @@ tiểu thuyết, sách tâm linh, tâm lý…"
                         android:id="@+id/textView10"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Giới thiệu"
+                        android:text="Nhiệm vụ"
                         android:textColor="@color/white"
                         android:textSize="18dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -130,11 +132,15 @@ tiểu thuyết, sách tâm linh, tâm lý…"
                         android:layout_marginTop="19dp"
                         android:layout_marginRight="23dp"
                         android:background="@drawable/background_gioi_thieu_item"
-                        android:text="My Book là ứng dụng đọc sách miễn phí. Có
-nhiều loại đầu sách hoàn toàn miễn phí, các
-thể loại từ chính trị - pháp luật, khoa học
-công nghệ, văn hóa xã hội – lịch sử, truyện,
-tiểu thuyết, sách tâm linh, tâm lý…"
+                        android:text="Mục tiêu chính là đưa dịch vụ đọc sách trực
+tuyến đến với người dùng. Mục tiêu phụ là
+người dùng có thể tìm kiếm và tham khảo các
+đầu sách cần thiết, người dùng cũng có thể
+đăng ký tài khoản và theo dõi các thông tin
+mới nhất về sách. Ngoài các thông tin như
+blog, video giới thiệu sách mới hoặc sự kiện,
+người dùng còn có thể tìm kiếm các thông tin
+liên quan đến tác giả và nhà phát hành."
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -157,7 +163,7 @@ tiểu thuyết, sách tâm linh, tâm lý…"
                         android:id="@+id/textView12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Giới thiệu"
+                        android:text="Tin tức"
                         android:textColor="@color/white"
                         android:textSize="18dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -180,7 +186,6 @@ tiểu thuyết, sách tâm linh, tâm lý…"
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
