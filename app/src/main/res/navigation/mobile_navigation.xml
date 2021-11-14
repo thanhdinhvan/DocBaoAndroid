@@ -12,24 +12,26 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.docbaoapp.view.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_mangxahoi"
+        android:name="com.example.docbaoapp.view.ui.mxh.MangXaHoiFragment"
+        android:label="Mang Xa Hội"
+        tools:layout="@layout/fragment_mang_xa_hoi" />
+
+    <fragment
+        android:id="@+id/navigation_forum"
+        android:name="com.example.docbaoapp.view.ui.forum.ForumFragment"
+        android:label="Forum"
+        tools:layout="@layout/fragment_forum" />
+
+    <fragment
+        android:id="@+id/navigation_tusach"
+        android:name="com.example.docbaoapp.view.ui.TuSachFaragment"
+        android:label="TuSachFaragment"
+        tools:layout="@layout/fragment_tu_sach_faragment" />
 
     <fragment
         android:id="@+id/navigation_setting"
         android:name="com.example.docbaoapp.view.ui.setting.SettingFragment"
         android:label="Setting"
         tools:layout="@layout/fragment_setting" />
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.docbaoapp.view.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
-    <fragment
-        android:id="@+id/navigation_tusach"
-        android:name="com.example.docbaoapp.view.ui.TuSachFaragment"
-        android:label="TuSachFaragment"
-        tools:layout="@layout/fragment_tu_sach_faragment" />
 </navigation>
